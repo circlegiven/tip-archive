@@ -1,0 +1,14 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "Fake API",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json",
+  },
+  "author": "circlegiven",
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "jsonwebtoken": "^8.1.0"
+  }
+}
